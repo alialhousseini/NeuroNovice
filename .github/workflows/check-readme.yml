@@ -1,0 +1,21 @@
+name: Check README
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check for README.md in each directory
+        run: |
+          for dir in */ ; do
+            if [ ! -f "$dir/README.md" ]; then
+              echo "README.md missing in $dir"
+              exit 1
+            fi
+          done
