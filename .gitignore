@@ -1,2 +1,4 @@
 env/
 *.onnx
+__pycache__
+/__pycache__
