@@ -2,8 +2,6 @@ from ResNet.Resnet import ResNet
 import torch
 
 import torch.onnx as onnx
-import torchvision.models as models
-
 
 def generate_onnx(model, output_file):
     """
