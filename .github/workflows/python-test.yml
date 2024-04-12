@@ -21,6 +21,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run unittests
       run: |
-        for file in **/test_*.py; do
-          python -m unittest "$file"
-        done
+        python -m unittest discover -s . -p "test_*.py"
