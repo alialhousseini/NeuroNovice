@@ -11,9 +11,6 @@ A set of Deep Learning Architectures implemented using PyTorch with explanations
 
 Welcome to the Neural Network Architectures repository! This project aims to demystify various neural network architectures by providing detailed implementations and explanations in Jupyter Notebooks, accompanied by their original research papers and additional resources.
 
-![PyTorch Logo](https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png)
-![Jupyter Logo](https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg)
-
 ## Overview
 
 This repository contains a collection of Jupyter Notebooks, each dedicated to a specific neural network architecture. These notebooks not only implement the networks in PyTorch but also delve into the theories, intuitions, and details behind each architecture, making it an invaluable resource for both learning and teaching.
