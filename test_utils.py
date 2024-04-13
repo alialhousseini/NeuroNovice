@@ -1,5 +1,5 @@
 import torch
-from utils import generate_onnx
+#from utils import generate_onnx
 import os
 import unittest
 
